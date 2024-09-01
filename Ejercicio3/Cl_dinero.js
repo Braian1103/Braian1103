@@ -8,13 +8,9 @@ export default class dinero {
     procesarsobres(c){
         this.Svalor = c.valor * c.cantidad;
 
-        this.total = this.Svalor;
+    
 
         this.ctsobres += this.Svalor;
-    }
-
-    totales(){
-        return this.total;
     }
 
     sobres(){

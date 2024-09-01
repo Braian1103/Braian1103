@@ -13,4 +13,8 @@ export default class sobres {
         return this._cantidad;
     }
 
+    totales() {
+        return this.cantidad * this.valor;
+    }
+
 }
